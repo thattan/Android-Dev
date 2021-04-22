@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/pizza_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ListMaker">
-        <activity android:name=".CreateListItemActivity"></activity>
+        <activity android:name=".ListInstanceActivity"></activity>
+        <activity android:name=".ListsActivity" />
+        <activity android:name=".CreateListItemActivity" />
         <activity android:name=".CreateListActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
